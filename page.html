@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="/page.css" />
+</head>
+<body>
+  <nav class="navbar">
+        <img src="logo.png" alt="" class="logo" />
+    </nav>
+
+  <div class="quiz-container" id="quiz">
+    <h2 id="question">Question text</h2>
+    <ul>
+      <li><button class="option-btn" onclick="selectAnswer('a')"></button></li>
+      <li><button class="option-btn" onclick="selectAnswer('b')"></button></li>
+      <li><button class="option-btn" onclick="selectAnswer('c')"></button></li>
+      <li><button class="option-btn" onclick="selectAnswer('d')"></button></li>
+    </ul>
+    <button id="previous-btn" onclick="previousQuestion()">Previous</button>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+  </div>
+  <script src="page.java"></script>
+</body>
+</html>
